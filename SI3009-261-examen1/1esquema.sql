@@ -4,7 +4,6 @@ DROP TABLE IF EXISTS users;
 
 CREATE TABLE users (
   user_id     BIGINT PRIMARY KEY,
-  name       TEXT NOT NULL,
   email       TEXT NOT NULL,
   country     TEXT NOT NULL,
   created_at  TIMESTAMPTZ NOT NULL
